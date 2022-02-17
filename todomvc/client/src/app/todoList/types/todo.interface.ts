@@ -1,0 +1,1 @@
+import { TodoRequestInterface } from './todoRequest.interface';export interface TodoInterface {  name?: TodoRequestInterface;  user?: string;  _id?: TodoRequestInterface;}

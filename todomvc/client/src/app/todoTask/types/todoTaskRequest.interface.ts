@@ -1,0 +1,1 @@
+export interface TodoTaskRequestInterface {  name?: string;  id?: string;}

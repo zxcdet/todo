@@ -1,0 +1,1 @@
+import { RegisterRequestInterface } from './registerRequest.interface';export interface AuthStateInterface {  curentUser: RegisterRequestInterface}

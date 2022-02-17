@@ -1,0 +1,1 @@
+import { createSelector } from '@ngrx/store';import { AppState } from '../types/AppStateInterface';import { AuthStateInterface } from '../types/AuthStateInterface';export const selectFeature = (state: AppState) => state.auth;export const selectUser = createSelector(  selectFeature,  (state: AuthStateInterface) => state.curentUser);
